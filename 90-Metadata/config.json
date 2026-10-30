@@ -1,0 +1,10 @@
+{
+  "language": "vi",
+  "date_format": "YYYY-MM-DD",
+  "default_capture_path": "00-Inbox/quick-notes",
+  "canonical_knowledge_path": "04-Knowledge",
+  "experience_path": "05-Experiences",
+  "require_human_approval_for_promotion": true,
+  "preserve_raw_inbox": true,
+  "default_source_access_date": true
+}

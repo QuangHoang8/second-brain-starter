@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Experience Note",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "type",
+    "created",
+    "updated",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "const": "experience"
+    },
+    "created": {
+      "type": "string",
+      "format": "date"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "status": {
+      "enum": [
+        "investigating",
+        "resolved",
+        "mitigated",
+        "accepted",
+        "closed"
+      ]
+    },
+    "project": {
+      "type": "string"
+    },
+    "technology": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "impact": {
+      "type": "string"
+    },
+    "verification": {
+      "type": "string"
+    },
+    "related": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}
