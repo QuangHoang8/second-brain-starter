@@ -3,7 +3,7 @@
 ## Daily (5–10 minutes)
 
 1. Capture useful ideas into `00-Inbox/`.
-2. Add a source URL or context while it is fresh.
+2. Add a source URL or context while it is fresh. For an article or web page, run `/capture-link` with the URL to fetch, summarize, and predict a domain/tags automatically.
 3. Do not interrupt focused work to perfectly classify notes.
 
 ## Inbox processing (2–3 times per week)

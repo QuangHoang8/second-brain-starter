@@ -7,6 +7,7 @@
   "automation": "Semi-automatic with human approval",
   "files": [
     ".claude/skills/capture-knowledge/SKILL.md",
+    ".claude/skills/capture-link/SKILL.md",
     ".claude/skills/create-experience-note/SKILL.md",
     ".claude/skills/create-knowledge-note/SKILL.md",
     ".claude/skills/knowledge-linker/SKILL.md",
