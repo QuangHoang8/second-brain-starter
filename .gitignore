@@ -9,3 +9,5 @@ Thumbs.db
 !.env.example
 secrets/
 private/
+
+.firecrawl/
